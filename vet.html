@@ -1,0 +1,443 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="initial-scale=1"/>
+<title>tailio</title>
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+<style type="text/css">
+a {
+  color: #65bd60;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font: 600 24pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #474c55;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font: 600 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #65bd60;
+}
+
+h3 {
+  font: 600 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #474c55;
+}
+
+h4 {
+  font: 600 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #474c55;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+body {
+  font: 400 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  line-height: 18pt;
+  color: #474c55;
+  background-color: #f2f2f2;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+.gold, .gold2 {
+  border-collapse: collapse;
+  border-radius: 3px;
+  border-style: hidden;
+  /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 2px #ffce34;
+  /* this draws the table border  */
+  margin-bottom: 30px;
+}
+
+.gold td {
+  border: 2px solid #ffce34;
+}
+
+.gold td td, .gold2 td, .gold2 td td {
+  border: none;
+}
+
+.grey {
+  border-collapse: collapse;
+  border-radius: 5px;
+  border-style: hidden;
+  /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 2px #d7d8d6;
+  /* this draws the table border  */
+}
+
+.grey td {
+  border: 2px solid #d7d8d6;
+}
+
+.grey td td {
+  border: none;
+}
+
+.heavy {
+  font: 600 9pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  line-height: 18pt;
+}
+
+.heavy1 {
+  font: 600 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  line-height: 18pt;
+}
+
+.hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ltGray {
+  font: 200 8pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #a9abac;
+}
+
+.nopad {
+  padding-bottom: 0px;
+}
+
+.nomarg {
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.whitetable {
+  background: #FFF;
+}
+
+.zeromarg {
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  h1 {
+    font: 600 30pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #474c55;
+  }
+
+  h2 {
+    font: 600 22pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #65bd60;
+  }
+
+  h3 {
+    font: 600 22pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #474c55;
+  }
+
+  h4 {
+    font: 600 18pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #474c55;
+  }
+
+  body {
+    font: 400 18pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    line-height: 26pt;
+    color: #474c55;
+    background-color: #f2f2f2;
+  }
+
+  #details {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  #detective {
+    width: 100% !important;
+  }
+
+  .heavy {
+    font-size: 16pt;
+  }
+
+  .heavy1 {
+    font-size: 18pt;
+  }
+
+  .ltGray {
+    font: 200 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #a9abac;
+  }
+
+  .left-logo, .lefty {
+    width: 100% !important;
+  }
+
+  .left-logo td, .lefty td {
+    text-align: center !important;
+  }
+
+  .right-rep, .righty {
+    width: 100% !important;
+  }
+
+  .righty td {
+    text-align: center !important;
+  }
+
+  .rep {
+    width: 450px;
+  }
+}
+
+</style>
+</head>
+
+<body style="text-align: center;">
+<table width="600" id="container" border="0" cellspacing="0" cellpadding="0" style="padding-top: 10px; margin: 0 auto;">
+  <tr>
+    <td><img src="http://teamgoblin.com/imgs/header600.png" width="600" height="88" id="header"/></td>
+  </tr>
+  <tr>
+  		<td align="center" class="whitetable"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+  				<tr>
+  						<td align="center"><h1>Vet Report</h1><h3>Detective Olivia Benson</h3></td>
+  						</tr>
+  				<tr>
+  						<td><img src="http://teamgoblin.com/imgs/hr.png" width="100%" height="1" /></td>
+  						</tr>
+  				<tr>
+  						<td align="center"><table width="40%" border="0" align="left" cellpadding="0" cellspacing="2" style="margin-top: 10px;" id="detective">
+  								<tr>
+  										<td width="32%" align="center"><img src="http://teamgoblin.com/imgs/detective.png" /></td>
+  										</tr>
+  								</table>
+  								<table width="55%" border="0" align="right" cellpadding="0" cellspacing="2" style="margin-top: 10px;" id="details">
+  										<tr>
+  												<td><span class="heavy">Breed:</span> Scottish Fold</td>
+  												</tr>
+  										<tr>
+  												<td><span class="heavy">Age:</span> 6 years, 7 months</td>
+  												</tr>
+  										<tr>
+  												<td><span class="heavy">Owner:</span> Taylor Swift</td>
+  												</tr>
+  										<tr>
+  												<td><span class="heavy">Current Weight:</span> 16.9 lbs</td>
+  												</tr>
+  										<tr>
+  												<td><span class="heavy">Sex:</span> Female</td>
+  												</tr>
+  										<tr>
+  												<td><span class="heavy">Contact:</span> tswift@example.com</td>
+  												</tr>
+  										</table></td>
+  						</tr>
+  				<tr>
+  						<td align="left"><p>This cool cat has a Tailio Devcie that will help you monitor its health.<br />
+  								In this report, you will find a history of the following:<br />
+  								1) Health Alerts, 2) Weight Statistics, 3) Waste Statistics, and 4) Litter Box Visits</p></td>
+  						</tr>
+  				<tr>
+  						<td align="center"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="gold">
+  								<tr>
+  										<td align="center"><h3 class="nomarg">Most Recent Health Alert</h3></td>
+  										</tr>
+  								<tr>
+  										<td><table width="30%" border="0" align="left" cellpadding="10" cellspacing="0" class="lefty">
+  												<tr>
+  														<td class="heavy">06/21/2016</td>
+  														<td class="heavy">2:04 pm</td>
+  														</tr>
+  												</table>
+  												<table width="65%" border="0" align="right" cellpadding="10" cellspacing="0" class="righty">
+  														<tr>
+  																<td>Weight loss in excess of 3 lbs in last 30 days</td>
+  																</tr>
+  														</table></td>
+  										</tr>
+  								</table></td>
+  						</tr>
+  				<tr>
+  						<td align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="grey">
+  								<tr>
+  										<td align="center" class="padded"><h3 class="nomarg">History of Health Alerts (last 30 days)</h3></td>
+  										</tr>
+  								<tr>
+  										<td><table width="30%" border="0" align="left" cellpadding="10" cellspacing="0" class="lefty">
+  												<tr>
+  														<td class="heavy">06/21/2016</td>
+  														<td class="heavy">2:04 pm</td>
+  														</tr>
+  												</table>
+  												<table width="65%" border="0" align="right" cellpadding="10" cellspacing="0" class="righty">
+  														<tr>
+  																<td>Weight loss in excess of 3 lbs in last 30 days</td>
+  																</tr>
+  														</table></td>
+  										</tr>
+  								<tr>
+  										<td><table width="30%" border="0" align="left" cellpadding="10" cellspacing="0" class="lefty">
+  												<tr>
+  														<td class="heavy">06/21/2016</td>
+  														<td class="heavy">2:04 pm</td>
+  														</tr>
+  												</table>
+  												<table width="65%" border="0" align="right" cellpadding="10" cellspacing="0" class="righty">
+  														<tr>
+  																<td>Weight loss in excess of 3 lbs in last 30 days</td>
+  																</tr>
+  														</table></td>
+  										</tr>
+  								<tr>
+  										<td><table width="30%" border="0" align="left" cellpadding="10" cellspacing="0" class="lefty">
+  												<tr>
+  														<td class="heavy">06/21/2016</td>
+  														<td class="heavy">2:04 pm</td>
+  														</tr>
+  												</table>
+  												<table width="65%" border="0" align="right" cellpadding="10" cellspacing="0" class="righty">
+  														<tr>
+  																<td>Weight loss in excess of 3 lbs in last 30 days</td>
+  																</tr>
+  														</table></td>
+  										</tr>
+  								<tr>
+  										<td><table width="30%" border="0" align="left" cellpadding="10" cellspacing="0" class="lefty">
+  												<tr>
+  														<td class="heavy">06/21/2016</td>
+  														<td class="heavy">2:04 pm</td>
+  														</tr>
+  												</table>
+  												<table width="65%" border="0" align="right" cellpadding="10" cellspacing="0" class="righty">
+  														<tr>
+  																<td>Weight loss in excess of 3 lbs in last 30 days</td>
+  																</tr>
+  														</table></td>
+  										</tr>
+  								<tr>
+  										<td><table width="30%" border="0" align="left" cellpadding="10" cellspacing="0" class="lefty">
+  												<tr>
+  														<td class="heavy">06/21/2016</td>
+  														<td class="heavy">2:04 pm</td>
+  														</tr>
+  												</table>
+  												<table width="65%" border="0" align="right" cellpadding="10" cellspacing="0" class="righty">
+  														<tr>
+  																<td>Weight loss in excess of 3 lbs in last 30 days</td>
+  																</tr>
+  														</table></td>
+  										</tr>
+  								<tr>
+  										<td><table width="30%" border="0" align="left" cellpadding="10" cellspacing="0" class="lefty">
+  												<tr>
+  														<td class="heavy">06/21/2016</td>
+  														<td class="heavy">2:04 pm</td>
+  														</tr>
+  												</table>
+  												<table width="65%" border="0" align="right" cellpadding="10" cellspacing="0" class="righty">
+  														<tr>
+  																<td>Weight loss in excess of 3 lbs in last 30 days</td>
+  																</tr>
+  														</table></td>
+  										</tr>
+  								</table></td>
+  						</tr>
+  				<tr>
+  						<td align="center"><img src="http://teamgoblin.com/imgs/hr.png" width="100%" height="1" class="hr" /></td>
+  				</tr>
+  				<tr>
+  						<td height="216" align="center" valign="middle"><table width="45%" border="0" align="left" cellpadding="0" cellspacing="5" class="lefty" style="margin-top: 45px;">
+  								<tr>
+  										<td align="left"><h2 class="nomarg">Week</h2></td>
+  										</tr>
+  								<tr>
+  										<td><span class="heavy1">Average:</span> 16 lbs</td>
+  										</tr>
+  								<tr>
+  										<td><span class="heavy1">Minimum:</span> 15.9 lbs</td>
+  										</tr>
+  								<tr>
+  										<td><span class="heavy1">Maximum:</span> 17.8 lbs</td>
+  										</tr>
+  								</table><table width="50%" border="0" align="right" cellpadding="0" cellspacing="5" class="righty"><tr><td><img src="http://teamgoblin.com/imgs/week.png"/></td></tr></table></td>
+  						</tr>
+  				<tr>
+  						<td height="216" align="center" valign="middle"><table width="45%" border="0" align="left" cellpadding="0" cellspacing="5" class="lefty" style="margin-top: 45px;">
+  								<tr>
+  										<td align="left"><h2 class="nomarg">Month</h2></td>
+  										</tr>
+  								<tr>
+  										<td><span class="heavy1">Average:</span> 16 lbs</td>
+  										</tr>
+  								<tr>
+  										<td><span class="heavy1">Minimum:</span> 15.9 lbs</td>
+  										</tr>
+  								<tr>
+  										<td><span class="heavy1">Maximum:</span> 17.8 lbs</td>
+  										</tr>
+  								</table><table width="50%" border="0" align="right" cellpadding="0" cellspacing="5" class="righty"><tr><td><img src="http://teamgoblin.com/imgs/month.png"/></td></tr></table></td>
+  						</tr>
+				<tr>
+  						<td height="216" align="center" valign="middle"><table width="45%" border="0" align="left" cellpadding="0" cellspacing="5" class="lefty" style="margin-top: 45px;">
+  								<tr>
+  										<td align="left"><h2 class="nomarg">Year</h2></td>
+  										</tr>
+  								<tr>
+  										<td><span class="heavy1">Average:</span> 16 lbs</td>
+  										</tr>
+  								<tr>
+  										<td><span class="heavy1">Minimum:</span> 15.9 lbs</td>
+  										</tr>
+  								<tr>
+  										<td><span class="heavy1">Maximum:</span> 17.8 lbs</td>
+  										</tr>
+  								</table><table width="50%" border="0" align="right" cellpadding="0" cellspacing="5" class="righty" style="margin-bottom: 30px;"><tr><td><img src="http://teamgoblin.com/imgs/year.png"/></td></tr></table></td>
+  						</tr>
+  				<tr>
+  						<td><img src="http://teamgoblin.com/imgs/hr.png" width="100%" height="1" /></td>
+  						</tr>
+  				<tr>
+  						<td><table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-top: 20px; padding-bottom: 20px;">
+  								<tr>
+  										<td align="center" class="bold"><h3>Have a question?</h3></td>
+  										</tr>
+  								<tr>
+  										<td align="center" class="bold"><h2><a href="support@tailio.com">support@tailio.com</a></h2></td>
+  										</tr>
+  								</table></td>
+  						</tr>
+  				</table></td>
+  		</tr>
+  <tr>
+  		<td align="center"><img src="http://teamgoblin.com/imgs/logo.png" width="137" height="37" style="padding-top: 30px; padding-bottom: 30px;"/></td>
+  		</tr>
+  <tr>
+    <td align="center"><table width="238" border="0" cellspacing="0" cellpadding="0" style="padding-bottom: 30px;">
+      <tr>
+        <td align="center"><img src="http://teamgoblin.com/imgs/facebook.png" width="46" height="46" /></td>
+        <td align="center"><img src="http://teamgoblin.com/imgs/twitter.png" width="46" height="46" /></td>
+        <td align="center"><img src="http://teamgoblin.com/imgs/googleplus.png" width="46" height="46" /></td>
+        <td align="center"><img src="http://teamgoblin.com/imgs/instagram.png" width="46" height="46" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center"><table width="65%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+				<td class="ltGray" align="center"><p>We hope you found this message to be useful. However, if you'd rather not receive future e-mails of this sort from Tailio.com, please opt-out <a href="#">here</a>.</p> 
+
+        <p>© 2016 Tailio.com, Inc. or its affiliates. All rights reserved. Tailio, Tailio.com, and the Tailio.com logo are registered trademarks of Tailio.com, Inc. or its affiliates. Tailio.com, 1 Big Road, Suite 1000, San Francisco, CA 55555.</p>
+
+        <p>Please note that this message was sent to the following e-mail address: xxx@gmail.com</p></td>
+		</tr>
+</table>
+</td>
+  </tr>
+</table>
+</body>
+</html>

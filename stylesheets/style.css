@@ -1,0 +1,187 @@
+a {
+  color: #65bd60;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font: 600 24pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #474c55;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font: 600 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #65bd60;
+}
+
+h3 {
+  font: 600 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #474c55;
+}
+
+h4 {
+  font: 600 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #474c55;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+body {
+  font: 400 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  line-height: 18pt;
+  color: #474c55;
+  background-color: #f2f2f2;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+.gold, .gold2 {
+  border-collapse: collapse;
+  border-radius: 3px;
+  border-style: hidden;
+  /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 2px #ffce34;
+  /* this draws the table border  */
+  margin-bottom: 30px;
+}
+
+.gold td {
+  border: 2px solid #ffce34;
+}
+
+.gold td td, .gold2 td, .gold2 td td {
+  border: none;
+}
+
+.grey {
+  border-collapse: collapse;
+  border-radius: 5px;
+  border-style: hidden;
+  /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 2px #d7d8d6;
+  /* this draws the table border  */
+}
+
+.grey td {
+  border: 2px solid #d7d8d6;
+}
+
+.grey td td {
+  border: none;
+}
+
+.heavy {
+  font: 600 9pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  line-height: 18pt;
+}
+
+.heavy1 {
+  font: 600 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  line-height: 18pt;
+}
+
+.hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ltGray {
+  font: 200 8pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #a9abac;
+}
+
+.nopad {
+  padding-bottom: 0px;
+}
+
+.nomarg {
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.whitetable {
+  background: #FFF;
+}
+
+.zeromarg {
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  h1 {
+    font: 600 30pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #474c55;
+  }
+
+  h2 {
+    font: 600 22pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #65bd60;
+  }
+
+  h3 {
+    font: 600 22pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #474c55;
+  }
+
+  h4 {
+    font: 600 18pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #474c55;
+  }
+
+  body {
+    font: 400 18pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    line-height: 26pt;
+    color: #474c55;
+    background-color: #f2f2f2;
+  }
+
+  #details {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  #detective {
+    width: 100% !important;
+  }
+
+  .heavy {
+    font-size: 16pt;
+  }
+
+  .heavy1 {
+    font-size: 18pt;
+  }
+
+  .ltGray {
+    font: 200 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #a9abac;
+  }
+
+  .left-logo, .lefty {
+    width: 100% !important;
+  }
+
+  .left-logo td, .lefty td {
+    text-align: center !important;
+  }
+
+  .right-rep, .righty {
+    width: 100% !important;
+  }
+
+  .righty td {
+    text-align: center !important;
+  }
+
+  .rep {
+    width: 450px;
+  }
+}

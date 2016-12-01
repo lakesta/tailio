@@ -1,0 +1,61 @@
+$dkGray: #474c55;
+$ltGray: #a9abac;
+$green: #65bd60;
+$gold: #ffce34;
+$tblGray: #d7d8d6;
+
+a {
+	color: $green;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+body {
+	font: 400 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+	color: $dkGray;
+	background-color: #f2f2f2;
+}
+h1 {
+	font: 600 24pt 'Fira Sans', Helvetica, Arial, sans-serif;
+	color: $dkGray;
+}
+h2 {
+	font: 600 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
+	color: $green;	
+}
+h3 {
+	font: 600 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
+	color: $dkGray;	
+}
+h4 {
+	font: 600 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+	color: $dkGray;	
+}
+p {
+	padding-bottom: 10px;
+}
+
+.gold, .gold2 {
+	border-collapse: collapse; 
+	border-radius: 5px;
+	border-style: hidden; /* hide standard table (collapsed) border */
+	box-shadow: 0 0 0 2px $gold; /* this draws the table border  */
+	margin-bottom: 30px;
+}
+.gold td {
+	border: 2px solid $gold;
+}
+.gold td td, .gold2 td, .gold2 td td {
+	border: none;
+}
+.ltGray {
+	font: 400 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+	color: $ltGray;
+}
+.nopad {
+	padding-bottom: 0px;
+}
+.whitetable {
+	background: #FFF;
+}

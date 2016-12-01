@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="initial-scale=1"/>
+<title>tailio</title>
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+<style type="text/css">
+a {
+  color: #65bd60;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font: 600 24pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #474c55;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font: 600 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #65bd60;
+}
+
+h3 {
+  font: 600 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #474c55;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font: 600 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #474c55;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+body {
+  font: 400 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  line-height: 18pt;
+  color: #474c55;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+
+
+.center {
+	text-align: center;
+}
+.gold, .gold2 {
+  border-collapse: collapse;
+  border-radius: 3px;
+  border-style: hidden;
+  /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 2px #ffce34;
+  /* this draws the table border  */
+  margin-bottom: 30px;
+}
+
+.gold td {
+  border: 2px solid #ffce34;
+}
+
+.gold td td, .gold2 td, .gold2 td td {
+  border: none;
+}
+
+.grey {
+  border-collapse: collapse;
+  border-radius: 5px;
+  border-style: hidden;
+  /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 2px #d7d8d6;
+  /* this draws the table border  */
+}
+
+.grey td {
+  border: 2px solid #d7d8d6;
+}
+
+.grey td td {
+  border: none;
+}
+
+.heavy {
+  font: 600 9pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  line-height: 18pt;
+}
+
+.heavy1 {
+  font: 600 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  line-height: 18pt;
+}
+
+.hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.ltGray {
+  font: 200 8pt 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #a9abac;
+}
+.noa {
+	border: none;
+	outline: none;
+}
+.nopad {
+  padding-bottom: 0px;
+}
+
+.nomarg {
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.whitetable {
+  background: #FFF;
+}
+
+.zeromarg {
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  h1 {
+    font: 600 30pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #474c55;
+  }
+
+  h2 {
+    font: 600 22pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #65bd60;
+  }
+
+  h3 {
+    font: 600 22pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #474c55;
+  }
+
+  h4 {
+    font: 600 18pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #474c55;
+  }
+
+  body {
+    font: 400 18pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    line-height: 26pt;
+    color: #474c55;
+    background-color: #f2f2f2;
+  }
+
+  #details {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  #detective {
+    width: 100% !important;
+  }
+
+  .heavy {
+    font-size: 16pt;
+  }
+
+  .heavy1 {
+    font-size: 18pt;
+  }
+
+  .ltGray {
+    font: 200 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #a9abac;
+  }
+
+  .left-logo, .lefty {
+    width: 100% !important;
+  }
+
+  .left-logo td, .lefty td {
+    text-align: center !important;
+  }
+
+  .right-rep, .righty {
+    width: 100% !important;
+  }
+
+  .righty td {
+    text-align: center !important;
+  }
+
+  .rep {
+    width: 450px;
+  }
+}
+
+</style>
+</head>
+
+<body style="text-align: center;">
+	<table width="600" id="container" border="0" cellspacing="0" cellpadding="0" style="padding-top: 10px; margin: 0 auto;">
+		<tr>
+			<td><img src="http://teamgoblin.com/imgs/header600.png" width="600" height="88" id="header"/></td>
+		</tr>
+		<tr>
+			<td align="center" class="whitetable"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="center"><h1>Welcome to Tailio</h1><h3>Secondary Headline</h3></td>
+				</tr>
+			</table>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" class="img">
+				<tr>
+					<td align="center" valign="middle"><img src="Tailio-coming-soon-640x360.png" width="100%"/></td>
+				</tr>
+			</table>
+			<table width="90%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="center" valign="middle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc mollis vestibulum arcu sit amet luctus.  Curabitur iaculis a magna a pharetra.</p></td>
+				</tr>
+				<tr>
+					<td align="center" valign="middle">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" class="img">
+							<tr>
+								<td align="center" valign="middle"><a href="#"><img src="http://teamgoblin.com/imgs/more.png" border="0"/></a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://teamgoblin.com/imgs/hr.png" width="100%" height="1" /></td>
+				</tr>
+				<tr>
+					<td align="center"><table width="90%" border="0" cellspacing="10" cellpadding="0" style="padding-top: 20px; padding-bottom: 20px;">
+						<tr>
+							<td><img src="http://teamgoblin.com/imgs/story.png" /></td>
+							<td><table width="100%%" border="0" cellspacing="5" cellpadding="0">
+								<tr>
+									<td align="left"><h4>Section Headline</h4></td>
+								</tr>
+								<tr>
+									<td align="left">Lorem ipsum dolor sit amet, conesctetur adipiscing.</td>
+								</tr>
+							</table></td>
+						</tr>
+						<tr>
+							<td><img src="http://teamgoblin.com/imgs/story.png" /></td>
+							<td><table width="100%%" border="0" cellspacing="5" cellpadding="0">
+								<tr>
+									<td align="left"><h4>Section Headline</h4></td>
+								</tr>
+								<tr>
+									<td align="left">Lorem ipsum dolor sit amet, conesctetur adipiscing.</td>
+								</tr>
+							</table></td>
+						</tr>
+					</table></td>
+				</tr>
+				<tr>
+					<td><img src="http://teamgoblin.com/imgs/hr.png" width="100%" height="1" /></td>
+				</tr>
+				<tr>
+					<td><table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-top: 20px; padding-bottom: 20px;">
+						<tr>
+							<td align="center" class="bold center"><h3>Have a question?</h3></td>
+						</tr>
+						<tr>
+							<td align="center" class="bold center"><h2><a href="support@tailio.com">support@tailio.com</a></h2></td>
+						</tr>
+					</table></td>
+				</tr>
+			</table></td>
+		</tr>
+		<tr>
+			<td align="center">
+				<table width="45%" border="0" cellspacing="10" cellpadding="0" align="left" class="left-logo">
+					<tr>
+						<td align="right"><img src="http://teamgoblin.com/imgs/logo.png" width="137" height="37" style="padding-top: 30px; padding-bottom: 30px;"/></td>
+					</tr>
+				</table>
+				<table width="45%" border="0" cellspacing="0" cellpadding="0" align="right" class="right-rep">
+					<tr>
+						<td>
+							<table align="left" border="0" cellspacing="10" cellpadding="0" class="rep">
+								<tr>
+									<td align="left">
+										<table width="100%" align="left" border="0" cellpadding="0">
+											<tr>
+												<td><h4>Julie Edwards</h4></td>
+											</tr>
+											<tr>
+												<td>Customer Representative</td>
+											</tr>
+											<tr>
+												<td>310-794-0741</td>
+											</tr>
+											<tr>
+												<td>julie.edwards@tailio.com</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center"><table width="238" border="0" cellspacing="0" cellpadding="0" style="padding-bottom: 20px; padding-top: 20px;">
+				<tr>
+					<td align="center"><img src="http://teamgoblin.com/imgs/facebook.png" width="46" height="46" /></td>
+					<td align="center"><img src="http://teamgoblin.com/imgs/twitter.png" width="46" height="46" /></td>
+					<td align="center"><img src="http://teamgoblin.com/imgs/googleplus.png" width="46" height="46" /></td>
+					<td align="center"><img src="http://teamgoblin.com/imgs/instagram.png" width="46" height="46" /></td>
+				</tr>
+			</table></td>
+		</tr>
+		<tr>
+			<td align="center">
+				<table width="65%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td align="center"><p class="ltGray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis <u>vestibulum arcu</u> sit amet luctus. Curabitur iaculis a magna a pharetra.</p></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
