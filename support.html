@@ -1,204 +1,208 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>tailio</title>
-	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
-	<style type="text/css">
-		a {
-			color: #65bd60;
-			text-decoration: none;
-		}
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>tailio</title>
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+<style type="text/css">
+a {
+	color: #65bd60;
+	text-decoration: none;
+}
 
-		a:hover {
-			text-decoration: underline;
-		}
+a:hover {
+	text-decoration: underline;
+}
 
-		h1 {
-			font: 600 24pt 'Fira Sans', Helvetica, Arial, sans-serif;
-			color: #474c55;
-			margin-top: 20px;
-			margin-bottom: 20px;
-		}
+h1 {
+	font: 600 24pt 'Fira Sans', Helvetica, Arial, sans-serif;
+	color: #474c55;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
-		h2 {
-			font: 600 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
-			color: #65bd60;
-		}
+h2 {
+	font: 600 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
+	color: #65bd60;
+}
 
-		h3 {
-			font: 600 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
-			color: #474c55;
-		}
+h3 {
+	font: 600 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
+	color: #474c55;
+}
 
-		h4 {
-			font: 600 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
-			color: #474c55;
-			margin-top: 0px;
-			margin-bottom: 3px;
-		}
+h4 {
+	font: 600 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+	color: #474c55;
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
 
-		body {
-			font: 400 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
-			line-height: 18pt;
-			color: #474c55;
-			background-color: #f2f2f2;
-		}
+body {
+	font: 400 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+	line-height: 18pt;
+	color: #474c55;
+	background-color: #f2f2f2;
+}
 
-		p {
-			padding-bottom: 10px;
-		}
+p {
+	padding-bottom: 10px;
+}
 
-		.gold, .gold2 {
-			border-collapse: collapse;
-			border-radius: 3px;
-			border-style: hidden;
-			/* hide standard table (collapsed) border */
-			box-shadow: 0 0 0 2px #ffce34;
-			/* this draws the table border  */
-			margin-bottom: 30px;
-		}
+.black { 
+	color: #474c55; 
+}
 
-		.gold td {
-			border: 2px solid #ffce34;
-		}
+.gold, .gold2 {
+	border-collapse: collapse;
+	border-radius: 3px;
+	border-style: hidden;
+	/* hide standard table (collapsed) border */
+	box-shadow: 0 0 0 2px #ffce34;
+	/* this draws the table border  */
+	margin-bottom: 30px;
+}
 
-		.gold td td, .gold2 td, .gold2 td td {
-			border: none;
-		}
+.gold td {
+	border: 2px solid #ffce34;
+}
 
-		.grey {
-			border-collapse: collapse;
-			border-radius: 5px;
-			border-style: hidden;
-			/* hide standard table (collapsed) border */
-			box-shadow: 0 0 0 2px #d7d8d6;
-			/* this draws the table border  */
-		}
+.gold td td, .gold2 td, .gold2 td td {
+	border: none;
+}
 
-		.grey td {
-			border: 2px solid #d7d8d6;
-		}
+.grey {
+	border-collapse: collapse;
+	border-radius: 5px;
+	border-style: hidden;
+	/* hide standard table (collapsed) border */
+	box-shadow: 0 0 0 2px #d7d8d6;
+	/* this draws the table border  */
+}
 
-		.grey td td {
-			border: none;
-		}
+.grey td {
+	border: 2px solid #d7d8d6;
+}
 
-		.heavy {
-			font: 600 9pt 'Fira Sans', Helvetica, Arial, sans-serif;
-			line-height: 18pt;
-		}
+.grey td td {
+	border: none;
+}
 
-		.heavy1 {
-			font: 600 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
-			line-height: 18pt;
-		}
+.heavy {
+	font: 600 9pt 'Fira Sans', Helvetica, Arial, sans-serif;
+	line-height: 18pt;
+}
 
-		.hr {
-			margin-top: 30px;
-			margin-bottom: 30px;
-		}
+.heavy1 {
+	font: 600 10pt 'Fira Sans', Helvetica, Arial, sans-serif;
+	line-height: 18pt;
+}
 
-		.ltGray {
-			font: 200 8pt 'Fira Sans', Helvetica, Arial, sans-serif;
-			color: #a9abac;
-		}
+.hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
 
-		.nopad {
-			padding-bottom: 0px;
-		}
+.ltGray {
+	font: 200 8pt 'Fira Sans', Helvetica, Arial, sans-serif;
+	color: #a9abac;
+}
 
-		.nomarg {
-			margin-top: 7px;
-			margin-bottom: 5px;
-		}
+.nopad {
+	padding-bottom: 0px;
+}
 
-		.whitetable {
-			background: #FFF;
-		}
+.nomarg {
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
 
-		.zeromarg {
-			margin-top: 2px;
-			margin-bottom: 0px;
-		}
+.whitetable {
+	background: #FFF;
+}
 
-		@media only screen and (max-device-width: 480px) {
-			h1 {
-				font: 600 30pt 'Fira Sans', Helvetica, Arial, sans-serif;
-				color: #474c55;
-			}
+.zeromarg {
+	margin-top: 2px;
+	margin-bottom: 0px;
+}
 
-			h2 {
-				font: 600 22pt 'Fira Sans', Helvetica, Arial, sans-serif;
-				color: #65bd60;
-			}
+@media only screen and (max-device-width: 480px) {
+	h1 {
+		font: 600 30pt 'Fira Sans', Helvetica, Arial, sans-serif;
+		color: #474c55;
+	}
 
-			h3 {
-				font: 600 22pt 'Fira Sans', Helvetica, Arial, sans-serif;
-				color: #474c55;
-			}
+	h2 {
+		font: 600 22pt 'Fira Sans', Helvetica, Arial, sans-serif;
+		color: #65bd60;
+	}
 
-			h4 {
-				font: 600 18pt 'Fira Sans', Helvetica, Arial, sans-serif;
-				color: #474c55;
-			}
+	h3 {
+		font: 600 22pt 'Fira Sans', Helvetica, Arial, sans-serif;
+		color: #474c55;
+	}
 
-			body {
-				font: 400 18pt 'Fira Sans', Helvetica, Arial, sans-serif;
-				line-height: 26pt;
-				color: #474c55;
-				background-color: #f2f2f2;
-			}
+	h4 {
+		font: 600 18pt 'Fira Sans', Helvetica, Arial, sans-serif;
+		color: #474c55;
+	}
 
-			#details {
-				width: 100% !important;
-				text-align: center;
-			}
+	body {
+		font: 400 18pt 'Fira Sans', Helvetica, Arial, sans-serif;
+		line-height: 26pt;
+		color: #474c55;
+		background-color: #f2f2f2;
+	}
 
-			#detective {
-				width: 100% !important;
-			}
+	#details {
+		width: 100% !important;
+		text-align: center;
+	}
 
-			.center {
-				text-align: center;
-			}
-			.heavy {
-				font-size: 16pt;
-			}
+	#detective {
+		width: 100% !important;
+	}
 
-			.heavy1 {
-				font-size: 18pt;
-			}
+	.center {
+		text-align: center;
+	}
+	.heavy {
+		font-size: 16pt;
+	}
 
-			.ltGray {
-				font: 200 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
-				color: #a9abac;
-			}
+	.heavy1 {
+		font-size: 18pt;
+	}
 
-			.left-logo, .lefty {
-				width: 100% !important;
-			}
+	.ltGray {
+		font: 200 14pt 'Fira Sans', Helvetica, Arial, sans-serif;
+		color: #a9abac;
+	}
 
-			.left-logo td, .lefty td {
-				text-align: center !important;
-			}
+	.left-logo, .lefty {
+		width: 100% !important;
+	}
 
-			.right-rep, .righty {
-				width: 100% !important;
-			}
+	.left-logo td, .lefty td {
+		text-align: center !important;
+	}
 
-			.righty td {
-				text-align: center !important;
-			}
+	.right-rep, .righty {
+		width: 100% !important;
+	}
 
-			.rep {
-				width: 450px;
-			}
-		}
+	.righty td {
+		text-align: center !important;
+	}
 
-	</style>
+	.rep {
+		width: 450px;
+	}
+}
+
+</style>
 </head>
 
 <body style="text-align: center;">
@@ -248,7 +252,7 @@
 									<td align="left">
 										<table width="100%" align="left" border="0" cellpadding="0">
 											<tr>
-												<td><h4>Julie Edwards</h4></td>
+												<td><span class="heavy1">Julie Edwards</span></td>
 											</tr>
 											<tr>
 												<td>Customer Representative</td>
@@ -288,7 +292,7 @@
 				          <p>© 2016 Pet Wireless, Inc. or its affiliates. All rights reserved. Tailio, Tailio.com, and the Tailio.com logo are registered trademarks of Pet Wireless, Inc. or its affiliates.</p>
 
 				          <p>Please note that this message was sent to the following e-mail address: xxx@gmail.com</p>
-
+				          <p>Customer service: (800) 583-1197</p>
 				          <p>Pet Wireless, Inc. | 3525 Del Mar Heights Rd #967 | San Diego, CA 92130</p>
 				        </td>
 					</tr>
